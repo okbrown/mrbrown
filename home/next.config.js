@@ -11,11 +11,11 @@ module.exports = {
     return [
       {
         source: '/blog',
-        destination: `${BLOG_URL}/blog`,
+        destination: `${BLOG_URL}/`,
       },
       {
         source: '/blog/:path*',
-        destination: `${BLOG_URL}/blog/:path*`,
+        destination: `${BLOG_URL}/:path*`,
       },
     ]
   },
