@@ -1,7 +1,6 @@
 const { BLOG_URL } = process.env
 
 module.exports = {
-  basePath: '/',
   rewrites() {
     return [
       {
